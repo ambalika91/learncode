@@ -1,0 +1,41 @@
+#img_div{
+    height : auto;
+    border : blue 2px solid;
+
+
+}
+.bg_div {
+    position : absolute; 
+    background:url('/media/main_1.jfif') fixed center; 
+    opacity:0.5;
+    filter : blur(4px);
+    top : 160px;
+    bottom : -50px;
+    left : 0px;
+    right : 0px;
+
+}
+
+#main_img{
+  position : relative;
+  top : 0%;
+
+}
+
+.arrows{
+    position : relative;
+    height : 50px;
+    width : 50px;
+    z-index: 5;
+    top : -300px;
+   /* transform: translate(-50%,-50%);*/
+    border : red solid 1px;
+    box-sizing: border-box;
+
+}
+#arrow_left{
+    left : 5%
+}
+#arrow_right {
+    left : 85%;
+}

@@ -1,0 +1,32 @@
+* {
+    padding:0px;
+    margin:0px
+}
+
+li{
+    /*display: inline;*/
+    display : inline-block;
+    padding : 10px 20px 10px 20px;
+    border : solid 3px skyblue;
+    box-sizing: border-box;
+    margin : 5px;
+    
+   
+  
+
+}
+
+ul{
+    float : left;
+    height : 200px;
+    box-sizing: content-box;
+    border : solid 3px skyblue;
+}
+
+#footer {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background : skyblue;
+    line-height: 20px;
+}
