@@ -128,5 +128,14 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# For Heroku ################33
 STATIC_ROOT = 'static' #for heroku
+
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = True
+
+#Allow all the urls
+ALLOWED_HOSTS = []
+#######################
 
