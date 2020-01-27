@@ -1,25 +1,22 @@
 #img_div{
-    height : auto;
-    border : blue 2px solid;
+    position: relative;
+    border-top : dimgray 1px solid; 
+    box-sizing:border-box;
+    overflow: visible;
 
 
 }
 .bg_div {
-    position : absolute; 
+    
     background:url('/media/main_1.jfif') fixed center; 
     opacity:0.5;
-    filter : blur(4px);
-    top : 160px;
-    bottom : -50px;
-    left : 0px;
-    right : 0px;
-
-}
-
-#main_img{
-  position : relative;
-  top : 0%;
-
+    /* filter : blur(4px);      */
+    /* border : 2px solid green; */
+    height : 100%;
+    width : 100%;
+    position : relative;
+    top : -100%;
+    z-index : -5;
 }
 
 .arrows{
